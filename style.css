@@ -1,14 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("mountain.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
 }
 #container {
     width: 360px;
+    margin: 0;
+    padding: 20px 5px 20px 5px;
     height: fit-content;
     background: #545454;
     position: absolute;
@@ -51,6 +56,9 @@ body {
   line-height:37px;
   font-size:16px;
   color: white;
+}
+h5{
+    margin: 20px;
 }
 h5 a{
     color: white;
