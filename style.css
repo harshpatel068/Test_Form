@@ -1,12 +1,15 @@
 body {
-    background: gray;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("mountain.jpg");
+    background-size: 100% 100vw;
+    background-repeat: no-repeat;
+    
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 #container {
     width: 360px;
-    height: 500px;
+    height: fit-content;
     background: #545454;
     position: absolute;
     border-radius: 10px;
@@ -15,6 +18,7 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    opacity: 0.7;
 }
 .box{
     width: 260px;
@@ -25,22 +29,17 @@ body {
 }
 #btn{
     font-family: 'Montserrat', sans-serif;
-    width: 260px;
-    height: 40px;
-    background: #0FFF50;
-    stroke-width: 1px;
-    stroke:black;
-    border-radius:10px;
-    margin:14px auto;
+    background: #3498db80;
     display:block;
     font-size:16px;
     border:none;
-    color:white;
+    color: white;
     cursor:pointer;
-    transition:0.4s all;
 }
 #btn:hover{
     background:#3498db;
+    color: white;
+    transition:0.2s linear;
 }
 .box input{
   font-family:'Montserrat', sans-serif;
@@ -51,13 +50,14 @@ body {
   width:90%;
   line-height:37px;
   font-size:16px;
-  color:#333;
+  color: white;
 }
 h5 a{
-    color: #0FFF50;
+    color: white;
     text-decoration: none;
-    transition: 0.4s all;
+    
 }
 h5 a:hover{
     color: #3498db;
+    transition: 0.4s all;
 }
